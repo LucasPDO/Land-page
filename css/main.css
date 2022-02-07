@@ -1,0 +1,113 @@
+body {
+    background-color:  #E5E5E5;;
+}
+img {
+    margin-right: 55px;
+}
+header {
+    margin-top: 59px;
+    margin-left: 192px;
+}
+    ul {
+    display: inline-flex;
+    list-style-type: none;
+    grid-gap: 25px;
+    color: #4F5665; 
+}
+
+.container_sobre_a_empresa_menu {
+ color:#4F5665;
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+}
+.container_menu_principal {
+    margin-left: 149px !important;
+    background-color: #F53855;
+    width: 1142px;
+    height: 61px;
+}
+.container_menu_principal_titulos {
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+.menu_icones {
+    display: grid;
+}
+
+.logo_camisa {
+    margin: 0 auto;
+}
+.assinatura {
+  display: flex;
+  margin-left: 150px;
+}
+.assinatura_informacoes {
+  margin-top: 80px;
+
+}
+.assine_ja {
+  background: #F53838;
+  border-radius: 10px;
+  width: 250px;
+  height: 60px;
+  }
+.assinatura_img {
+border-radius: 50%;
+margin-top: 26px;
+}
+.informacoes {
+  display: flex;
+    width: 1140px;    
+    margin: 80px auto;
+}
+.informacoes_img {
+  border-radius: 50%;
+  margin-top: 26px;
+}
+.informacoes_texto {
+  margin-top: 90px;
+
+}
+
+.duvidas {
+  margin: 80px auto;
+  width: 600px;
+}
+.accordion-texto {
+  width: 700px; 
+  margin: 0 auto;
+}
+.accordion {
+  background-color: rgb(123, 144, 238);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.texto {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-nossa-pag-logo {
+margin: 55px;
+}
